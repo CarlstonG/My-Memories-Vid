@@ -23,7 +23,7 @@ export const getVideos: RequestHandler = async (req, res) => {
         }
 } 
 
-//Get
+//Get update
 export const getVideo: RequestHandler = (req, res) => {
     console.log(req.params)
     return res.json(req.params.id)
